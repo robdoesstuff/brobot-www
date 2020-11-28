@@ -9,6 +9,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
     background-color: #EFEFEF;
+    font-size: 1.1em;
 }
 
 .masthead {
@@ -19,8 +20,17 @@ body {
     font-size: 20px;
     font-weight: 500;
     vertical-align: middle;
-    height: 70px;
     line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-main, .site-logo {
+    height: 70px;
+    display: inline;
+}
+.mobile-menu {
+    display: none;
+    cursor: pointer;
 }
 
 li {
@@ -79,7 +89,7 @@ a:visited {
 }
 
 #content {
-    padding: 20px;
+    padding: 20px 20px 100px;
     max-width: 800px;
     margin: auto;
 }
@@ -90,6 +100,8 @@ a:visited {
     bottom: 0;
     width: 100%;
     text-align: center;
+    background-color: #202020;
+    color: white;
 }
 
 ul.alert-channel-list {
@@ -141,4 +153,35 @@ ul.alert-channel-list li img {
     height: 17px;
     float: left;
     margin-right: 10px
+}
+
+@media only screen and (max-width: 600px) {
+    .masthead {
+        flex-direction: column;
+    }
+
+    .nav-main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-menu {
+        display: inline;
+        margin: 0 1em;
+    }
+
+    .top-menu {
+        margin-right: 0;
+        height: initial;
+        display: none;
+    }
+
+    .top-menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-menu li a {
+        display: block;
+    }
 }

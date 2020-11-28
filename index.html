@@ -6,13 +6,18 @@
         <title>BroBot 8080 | Home</title>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+        <script src="/app.js"></script>
         <link rel="shortcut icon" href="/img/brobot.png">
     </head>
     <body>
         <div class="masthead">
-            <img src="img/brobot.png" class="little-logo">
-            BroBot 8080
-            <div class="top-menu">
+            <div class="nav-main">
+                <div class="site-logo">
+                    <img src="img/brobot.png" class="little-logo">BroBot 8080
+                </div>
+                <div class="mobile-menu" onclick="toggleMenu()" id="mobile-menu-button" aria-expanded="false">☰</div>
+            </div>
+            <div class="top-menu" id="top-menu">
                 <ul>
                     <li class="selected"><a href="index.html">Home</a></li>
                     <li><a href="alerts.html">Alerts</a></li>
