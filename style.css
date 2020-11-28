@@ -105,3 +105,40 @@ ul.alert-channel-list li img {
     float: left;
     margin-right: 10px
 }
+
+.product-section {
+    border-top: 2px solid #AAAAAA;
+    overflow: hidden;
+}
+
+.product-image {
+    height: 45px;
+    float: left;
+    margin-right: 10px;
+}
+
+.product-col {
+    width: 32%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.product-links {
+    display: flex;
+    vertical-align: top;
+}
+
+.product-col h3 {
+    text-align: center;
+}
+
+.product-col ul {
+    list-style-type: none;
+}
+
+.product-col li img {
+    height: 17px;
+    float: left;
+    margin-right: 10px
+}
