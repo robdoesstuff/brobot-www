@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BroBot 8080 | Alerts</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+        <script src="/app.js"></script>
+        <link rel="shortcut icon" href="/img/brobot.png">
+    </head>
+    <body>
+        <div class="masthead">
+            <div class="nav-main">
+                <div class="site-logo">
+                    <img src="img/brobot.png" class="little-logo">BroBot 8080
+                </div>
+                <div class="mobile-menu" onclick="toggleMenu()" id="mobile-menu-button" aria-expanded="false">☰</div>
+            </div>
+            <div class="top-menu" id="top-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="selected"><a href="alerts.html">Alerts</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <h1>Alerts</h1>
+            <div>Brobot uses Telegram Messenger to provide real-time alerts and product links when products are reported as in-stock.</div><br>
+            <div>Telegram is a free messaging app for Android, iOS and PC/Mac/Linux. <a href="https://telegram.org/">Get it here</a>.</div>
+            <h2>Current Alert Channels</h2>
+            <ul class="alert-channel-list">
+                <li><img src="img/telegram-logo.png"/><a href="https://t.me/RTX3070Alerts">NVIDIA Geforce RTX 3070</a></li>
+                <li><img src="img/telegram-logo.png"/><a href="https://t.me/RTX3080Alerts">NVIDIA Geforce RTX 3080</a></li>
+                <li><img src="img/telegram-logo.png"/><a href="https://t.me/RTX3090Alerts">NVIDIA Geforce RTX 3090</a></li>
+                <li><img src="img/telegram-logo.png"/><a href="https://t.me/Zen3StockAlerts">AMD Ryzen 5000 Series (Zen 3)</a></li>
+                <li><img src="img/telegram-logo.png"/><a href="https://t.me/RDNA2StockAlerts">AMD Radeon RX 6000 Series (Big Navi / RDNA2)</a></li>
+                <li><img src="img/telegram-logo.png"/><a href="https://t.me/Brobot5900XAlerts">AMD Ryzen 5900X / 5950X</a></li>
+                <li><img src="img/telegram-logo.png"/><a href="https://t.me/BrobotSelectAlerts">Select PC Component Alerts</a></li>
+            </ul>
+            <h2>Support and Discussion</h2>
+            <ul class="alert-channel-list">
+                <li><img src="img/telegram-logo.png"/><a href="https://t.me/brobot_users">Discussion and Support Group</a></li>
+            </ul>
+        </div>
+        <div id="footer">
+        </div>
+    </body>
+</html>
