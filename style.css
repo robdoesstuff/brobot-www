@@ -61,3 +61,17 @@ body {
 #footer {
 
 }
+
+ul.alert-channel-list {
+    list-style-type: none;
+}
+
+ul.alert-channel-list li {
+    margin-bottom: 5px;
+}
+
+ul.alert-channel-list li img {
+    height:17px;
+    float:left;
+    margin-right: 10px
+}
